@@ -8,11 +8,11 @@ export default defineConfig([
     plugins: { js },
     extends: ["js/recommended"],
     languageOptions: {
-      globals:
-        globals.browser,
-      describe: 'readonly',
-      it: 'readonly',
-      console: 'readonly'
+      globals: {
+        describe: 'readonly',
+        it: 'readonly',
+        console: 'readonly'
+      }
 
     },
     rules: {
