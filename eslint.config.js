@@ -17,7 +17,6 @@ export default defineConfig([
     },
     rules: {
       camelcase: "error",
-      quotes: ["error", "double"],
     },
   },
 ])
