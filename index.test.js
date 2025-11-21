@@ -1,4 +1,5 @@
 import assert from "assert"
+import { sum } from "./index.js"
 // Datei: index.test.js
 // TODO: Setzen Sie die korrekten Imports ein
 describe("sum", () => {
